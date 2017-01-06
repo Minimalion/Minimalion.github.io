@@ -1,0 +1,91 @@
+html {
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+header {
+  width: auto;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+header img {
+  height: 25px;
+}
+a {
+  text-decoration: none;
+}
+
+#welcomeDiv {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #DDEEEE;
+}
+#welcomeDiv img {
+  margin-bottom: 10px;
+  height: 25px;
+}
+#welcomeDiv h1 {
+  margin: 0px;
+}
+#welcomeDiv p {
+  font-size: 14px;
+  color: #7A6887;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#labsDiv {
+  padding-right: 50px;
+  box-sizing: border-box;
+  text-align: right;
+  width: 400px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #4F758A;
+  background-color: #D2E7B4;
+}
+#labsDiv h1 {
+  font-size: 24px;
+  margin: 0px;
+}
+#labsDiv p {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#scratchDiv {
+  padding-left: 50px;
+  box-sizing: border-box;
+  text-align: left;
+  margin-left: -4px;
+  width: 400px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #96576E;
+  background-color: #FFD0A7;
+}
+#scratchDiv h1 {
+  font-size: 24px;
+  margin: 0px;
+}
+#scratchDiv p {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+}
