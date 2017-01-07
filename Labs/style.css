@@ -82,6 +82,8 @@ a {
   height: 180px;
 }
 .lab img {
+  width: 200px;
+  height: 150px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   margin: 0px;
