@@ -1,0 +1,76 @@
+html {
+  font-family: "Roboto", sans-serif;
+  background-color:#22212F;
+  padding: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+canvas {
+  border-radius: 5px;
+  margin-bottom: 0px;
+  background-color: #eee;
+  width: 400px;
+  height: 300px;
+}
+#title {
+  margin-right: auto;
+  margin-left: auto;
+  color: #00C67B;
+  font-size: 26px;
+  padding: 30px;
+  text-align: left;
+  width: 400px;
+  font-family: "Montserrat", sans-serif;
+}
+.desc {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #00C67B;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 400px;
+}
+.desc p {
+  text-align: left;
+}
+.but {
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: white;
+  color: #00C67B;
+  display: block;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 0px;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+#creditContainer {
+  padding: 5px;
+  text-align: right;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#credit img {
+  height: 10px;
+}
