@@ -1,6 +1,11 @@
 html {
   padding: 0px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 body {
   margin: 0px;
@@ -15,77 +20,60 @@ header {
   margin-bottom: 0px;
 }
 header img {
-  height: 25px;
+  height: 18px;
 }
 a {
   text-decoration: none;
-}
-
-#welcomeDiv {
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: auto;
-  width: 800px;
+}
+.but {
+  display: inline-block;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 28px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #DDEEEE;
+  border-radius: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
-#welcomeDiv img {
-  margin-bottom: 10px;
-  height: 25px;
-}
-#welcomeDiv h1 {
-  margin: 0px;
-}
-#welcomeDiv p {
-  font-size: 14px;
-  color: #7A6887;
-  margin: 0px;
-  padding: 0px;
-}
-
-
-#labsDiv {
-  padding-right: 50px;
+.contentDiv {
   box-sizing: border-box;
-  text-align: right;
-  width: 400px;
-  display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #4F758A;
-  background-color: #D2E7B4;
-}
-#labsDiv h1 {
-  font-size: 24px;
+  color: white;
+  padding: 80px;
   margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#labsDiv p {
+.contentDiv h1 {
+  font-size: 30px;
+  margin: 8px;
+}
+.contentDiv p {
   font-size: 14px;
   margin: 0px;
   padding: 0px;
 }
 
+#welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
+#welcome h1 { color: white;}
+#welcome p  { color: #5724FB;}
 
-#scratchDiv {
-  padding-left: 50px;
-  box-sizing: border-box;
-  text-align: left;
-  margin-left: -4px;
-  width: 400px;
-  display: inline-block;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #96576E;
-  background-color: #FFD0A7;
+#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;}}
+#labs h1 { color: white;}
+#labs p  { color: #00C67B;}
+#labs .but {
+  background-color: white;
+  color: #00C67B;
 }
-#scratchDiv h1 {
-  font-size: 24px;
-  margin: 0px;
-}
-#scratchDiv p {
-  font-size: 14px;
-  margin: 0px;
-  padding: 0px;
+
+#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;}
+#scratch h1 { color: white;}
+#scratch p  { color: #FF245F;}
+#scratch .but {
+  background-color: white;
+  color: #FF245F;
 }

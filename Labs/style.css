@@ -1,18 +1,16 @@
 html {
-  background-color:black;
+  background-color:#22212F;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 14px;
 }
 header {
-  background-color: black;
   width: 360px;
-  padding: 40px;
+  padding: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
-  --border-bottom: #322B40 solid 1px;
 }
 body {
   padding: 0px;
@@ -20,42 +18,76 @@ body {
   text-align: center;
 }
 header img {
-  height: 25px;
+  height: 18px;
 }
 p {
   margin: 3px;
 }
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  margin: 3px;
+}
 a {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
   text-decoration: none;
 }
 #back {
-  color: #FF0032;
+  color: #00C67B;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
 }
-#desc {
-  padding: 0px;
-  margin: 0px;
-  font-size: 14px;
-  color: white;
+#topDiv {
+  box-sizing: border-box;
+  background-color: #00C67B;
+  border-radius: 5px;
+  width: 800px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#topDiv p {
+  margin-top: 10px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.but {
+  background-color: white;
+  color: #00C67B;
+  display: inline-block;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .lab {
+  border-radius: 5px;
   box-sizing: border-box;
   display: inline-block;
   margin: 40px;
   padding: 0px;
-  background-color: #222;
+  background-color: white;
   width: 200px;
   height: 180px;
 }
 .lab img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
   margin: 0px;
   padding: 0px;
 }
 .lab p {
-  margin-top: 6px;
+  color: #00C67B;
+  margin-top: 5px;
 }
