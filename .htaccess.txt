@@ -1,6 +1,0 @@
-ErrorDocument 404 http://www.domain.com/404page.html
-
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
