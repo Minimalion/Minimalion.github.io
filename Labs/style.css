@@ -44,16 +44,24 @@ a {
   box-sizing: border-box;
   background-color: #00C67B;
   border-radius: 5px;
-  width: 800px;
+  width: 650px;
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
 }
 #topDiv p {
   margin-top: 10px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+#container {
+  text-align: left;
+  width: 670px;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .but {
   background-color: white;
@@ -72,10 +80,11 @@ a {
   padding-right: 18px;
 }
 .lab {
+  text-align: center;
   border-radius: 5px;
   box-sizing: border-box;
   display: inline-block;
-  margin: 40px;
+  margin: 10px;
   padding: 0px;
   background-color: white;
   width: 200px;
