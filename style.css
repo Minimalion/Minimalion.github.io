@@ -62,7 +62,7 @@ a {
 #welcome h1 { color: white;}
 #welcome p  { color: #5724FB;}
 
-#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;}}
+#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;margin-bottom: 83px;}
 #labs h1 { color: white;}
 #labs p  { color: #00C67B;}
 #labs .but {
@@ -70,7 +70,7 @@ a {
   color: #00C67B;
 }
 
-#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;}
+#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;margin-bottom: 83px;}
 #scratch h1 { color: white;}
 #scratch p  { color: #FF245F;}
 #scratch .but {
