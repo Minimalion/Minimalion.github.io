@@ -22,6 +22,13 @@ header {
 header img {
   height: 18px;
 }
+#bottom {
+  display: inline-block;
+  width: 290px;
+  font-size: 12px;
+  margin-bottom: 80px;
+  color: #ccc;
+} #bottom a { color: #bbb; }
 a {
   text-decoration: none;
   color: white;
