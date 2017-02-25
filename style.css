@@ -28,13 +28,15 @@ header img {
   width: 290px;
   font-size: 12px;
   margin-bottom: 80px;
-  color: #ccc;
-} #bottom a { color: #bbb; }
+  color: #bbb;
+} #bottom a { color: #bbb; text-decoration: underline;}
 a {
   text-decoration: none;
   color: white;
 }
 .but {
+  color: white;
+  background-color: #3F469C;
   display: inline-block;
   padding: 12px;
   font-weight: bold;
@@ -47,41 +49,53 @@ a {
   border-radius: 20px;
   padding-left: 18px;
   padding-right: 18px;
+  transition-duration: 0.2s;
+}
+.but:hover {
+  box-shadow: 0px 4px 20px 0 rgba(81, 81, 185, 0.5);
 }
 .contentDiv {
   box-sizing: border-box;
   color: white;
-  padding: 80px;
+  padding: 70px;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 .contentDiv h1 {
+  color: #5151B9;
+  color: #FF0032;
   font-size: 30px;
   margin: 8px;
 }
 .contentDiv p {
-  font-size: 14px;
+  color: #5F6282;
+  font-size: 16px;
   margin: 0px;
   padding: 0px;
 }
 
-#welcome    { background-color: #4CB3FB;width:800px;border-top-left-radius: 5px;border-top-right-radius: 5px;}
-#welcome h1 { color: white;}
-#welcome p  { color: #5724FB;}
-
-#labs    { background-color: #22212F;width:400px;display: inline-block;border-bottom-left-radius: 5px;margin-bottom: 83px;}
-#labs h1 { color: white;}
-#labs p  { color: #00C67B;}
-#labs .but {
-  background-color: white;
-  color: #00C67B;
+#welcome    {
+  background-color: #EEECED;
+  width:800px;
 }
 
-#scratch    { background-color: #FFB251;width:400px;display: inline-block;border-bottom-right-radius: 5px;margin-bottom: 83px;}
-#scratch h1 { color: white;}
-#scratch p  { color: #FF245F;}
-#scratch .but {
-  background-color: white;
-  color: #FF245F;
+#labs    {
+  /*background-color: #EEECED;*/
+  width:400px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#scratch    {
+  /*background-color: #EEECED;*/
+  width:400px;
+  display: inline-block;
+}
+
+#contact {
+  background-color: #EEECED;
+  width: 800px;
+  margin-bottom: 83px;
 }
