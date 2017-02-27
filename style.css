@@ -1,3 +1,30 @@
+@font-face {
+font-family: 'Font1';
+src: url(Asphalts-Brush.ttf);
+}
+#test {
+  margin-top: 40px;
+  display: inline-block;
+}
+#test h1 {
+  line-height: 90%;
+  width: 400px;
+  margin: 0px;
+  color: gold;
+  font-size: 50px;
+  font-family: Font1;
+}
+#test p {
+  position: relative;
+  right: 12px;
+  margin-top: -3px;
+  color: slategray;
+  font-family: Helvetica;
+  font-size: 10px;
+  letter-spacing: 3px;
+  line-height: 100%;
+}
+
 html {
   padding: 0px;
   font-family: 'Roboto', sans-serif;
@@ -6,7 +33,7 @@ html {
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
 }
 body {
   margin: 0px;
@@ -39,7 +66,7 @@ a {
   background-color: #3F469C;
   display: inline-block;
   padding: 12px;
-  font-weight: bold;
+  font-weight:bold;
   font-size: 10px;
   letter-spacing: 4px;
   text-align: center;
